@@ -29,7 +29,7 @@ cd eva
 CGO_ENABLED=1 go build -ldflags="-s -w -linkmode external -extldflags '-static'" src/eva.go
 
 # Optional but highly recommended: move the binary to /usr/local/bin so that you can run the program from anywhere in your system
-mv eva /usr/local/bin/eva
+sudo mv eva /usr/local/bin/eva
 ```
 ## Usage
 Just run:
