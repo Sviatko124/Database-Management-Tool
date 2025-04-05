@@ -19,7 +19,7 @@ Requirements:
 
 ```bash
 # Install dependencies (Ubuntu/Debian)
-sudo apt-get install gcc musl-dev go
+sudo apt-get install gcc musl-dev
 
 # Clone the repository
 git clone https://github.com/Sviatko124/eva.git
