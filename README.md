@@ -32,13 +32,15 @@ go get golang.org/x/term
 go mod tidy
 
 # Build static binary
-CGO_ENABLED=1 go build -ldflags="-s -w -linkmode external -extldflags '-static'" src/eva.go
+CGO_ENABLED=1 go build -ldflags="-s -w -linkmode external -extldflags '-static'" eva.go
 
 # Optional but highly recommended: move the binary to /usr/local/bin so that you can run the program from anywhere in your system
 sudo mv eva /usr/local/bin/eva
 ```
+If you get any permission errors when running any of the commands, just put `sudo` before the command, and that should fix the error. 
+
 ## Usage
 Just run:
 eva
 
-You will be greeted with a simple interface. Upon first launch, a database will be create in your home directory under .eva/eva.db. To start creating notes, just begin adding them by selecting the "Add entry" option. By the way, make sure to pick easy to remember keywords for your entries, so that you can find what you're looking for easily. 
+You will be greeted with a simple interface. Upon first launch, a database will be created in your home directory under .eva/eva.db. To start creating notes, just begin adding them by selecting the "Add entry" option. By the way, make sure to pick easy to remember keywords for your entries, so that you can find what you're looking for easily. 
