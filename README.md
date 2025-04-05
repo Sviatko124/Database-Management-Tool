@@ -25,6 +25,7 @@ sudo apt-get install gcc musl-dev go
 git clone https://github.com/Sviatko124/eva.git
 cd eva
 
+# Initialize project, install dependencies, and finalize environment
 go mod init eva
 go get github.com/mattn/go-sqlite3
 go get golang.org/x/term
