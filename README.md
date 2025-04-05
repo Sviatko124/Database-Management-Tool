@@ -13,13 +13,13 @@ EVA database tool gives you easy access to search through your hacking notes and
 ## Build from source
 
 Requirements:
-- Go 1.x or higher
+- Go 1.19 or higher
 - GCC
 - musl-dev (for static compilation)
 
 ```bash
 # Install dependencies (Ubuntu/Debian)
-sudo apt-get install gcc musl-dev
+sudo apt-get install gcc musl-dev golang-go
 
 # Clone the repository
 git clone https://github.com/Sviatko124/eva.git
