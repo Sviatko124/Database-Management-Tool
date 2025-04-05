@@ -19,11 +19,16 @@ Requirements:
 
 ```bash
 # Install dependencies (Ubuntu/Debian)
-sudo apt-get install gcc musl-dev
+sudo apt-get install gcc musl-dev go
 
 # Clone the repository
 git clone https://github.com/Sviatko124/eva.git
 cd eva
+
+go mod init eva
+go get github.com/mattn/go-sqlite3
+go get golang.org/x/term
+go mod tidy
 
 # Build static binary
 CGO_ENABLED=1 go build -ldflags="-s -w -linkmode external -extldflags '-static'" src/eva.go
