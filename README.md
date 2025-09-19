@@ -1,5 +1,5 @@
-Cheatsheet/Notes Database tool
-This database management program written in Go allows you to easily search through your hacking notes and cheatsheets, all from the comfort of your terminal. The tool is intuitive, and after adding all of your notes, it allows you to quickly query and modify your notes so that you can easily find exactly what you need. This tool is perfect for red teamers who have a lot of notes through which they have to manually find what they're looking for. 
+# Cheatsheet/Notes Database tool
+This notes management program written in Go allows you to easily search through your hacking notes and cheatsheets. The tool is intuitive, and after adding all of your notes, it allows you to quickly query and modify your notes so that you can easily find exactly what you need. 
 
 ## Features
 
