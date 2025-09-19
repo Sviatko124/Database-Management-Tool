@@ -43,4 +43,4 @@ If you get permission errors when running any of the commands, just put `sudo` b
 Just run:
 `dbtool`
 
-You will be greeted with a simple interface. Upon first launch, a database will be created in your home directory under .dbt/dbt.db. To start creating notes, just begin adding them by selecting the "Add entry" option. By the way, make sure to pick easy to remember keywords for your entries, so that you can find what you're looking for easily. 
+You will be greeted with a simple interface. Upon first launch, a database will be created in your home directory under .dbt/dbt.db. To start creating notes, just begin adding them by selecting the "Add entry" option. 
