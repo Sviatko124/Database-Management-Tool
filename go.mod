@@ -1,4 +1,4 @@
-module eva
+module dbt
 
 go 1.19
 
