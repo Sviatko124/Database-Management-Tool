@@ -36,9 +36,9 @@ func getHomeDir() string {
 }
 
 func initDB() *sql.DB {
-	dataDir := filepath.Join(getHomeDir(), ".eva")
+	dataDir := filepath.Join(getHomeDir(), ".dbt")
 	os.MkdirAll(dataDir, 0755)
-	dbPath := filepath.Join(dataDir, "eva.db")
+	dbPath := filepath.Join(dataDir, "dbt.db")
 
 	db, err := sql.Open("sqlite3", dbPath)
 	if err != nil {
@@ -409,7 +409,7 @@ func main() {
     defer db.Close()
 
 	for {
-		fmt.Println("\n\033[34mEVA - Cheatsheet/Notes Database Tool\033[0m")
+		fmt.Println("\n\033[34mCheatsheet/Notes Database Tool\033[0m")
 		fmt.Println("1. Search database")
 		fmt.Println("2. Add entry")
 		fmt.Println("3. Exit")
